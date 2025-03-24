@@ -19806,4 +19806,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	abadozer:{
+		num: -6001,
+		name: "Abadozer",
+		types: ["Grass", "Rock"],
+		genderRatio: { M: 0.875, F: 0.125 },
+		baseStats: { hp: 50, atk: 120, def: 93, spa: 77, spd: 111, spe: 79 },
+		abilities: { 0: "Overgrow", H: "Gooey" },
+		heightm: 5.6,
+		weightkg: 245.4,
+		color: "Pink",
+		eggGroups: ["Undiscovered"],
+		isNonstandard: "CAP",
+	},
 };

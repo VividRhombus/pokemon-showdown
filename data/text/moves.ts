@@ -5917,6 +5917,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "One of the user's known moves, besides this move, is selected for use at random. Fails if the user is not asleep. The selected move does not have PP deducted from it, and can currently have 0 PP. This move cannot select Bide, Sleep Talk, or any two-turn move.",
 		},
 	},
+	slippercrush: {
+		name: "Slipper Crush",
+		desc: "Deals damage to the target based on its Speed instead of Defense.",
+		shortDesc: "Damages target based on Speed, not Defense",
+	},
 	sludge: {
 		name: "Sludge",
 		desc: "Has a 30% chance to poison the target.",

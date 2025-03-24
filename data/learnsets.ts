@@ -315,6 +315,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "8M"],
 			workup: ["8M", "7M"],
 			worryseed: ["9L44", "8L44", "7T", "7L39", "6T", "6L39", "5T", "5L39", "4T", "4L39"],
+			slippercrush: ["9M"],
 		},
 		eventData: [
 			{generation: 6, level: 100, isHidden: true, moves: ["solarbeam", "frenzyplant", "synthesis", "grasspledge"], pokeball: "cherishball"},
@@ -99830,5 +99831,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		eventData: [
 			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
 		],
+	},
+	abadozer: {
+		learnset: {
+			blizzard: ["9M"],
+			bodyslam: ["9M"],
+			bulldoze: ["9M"],
+			charge: ["9M", "9L15"],
+			chargebeam: ["9M"],
+			charm: ["9M", "9L1"],
+			dig: ["9M"],
+			slippercrush: ["9M"],
+		},
 	},
 };
